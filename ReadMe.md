@@ -125,3 +125,20 @@ to include inventive component
 
 // object employee, manager, cxo 
 call calculate salary and see if you can get right result. 
+
+### Abstract Classes 
+SQL - MYSQL, ORACLE, POSTGRES, SQLSEVER, 
+NOSQL - MongoDB
+example :
+ in order to insert in mongo db 
+ connect.save(document)
+ in other hand my in sql
+  
+   connect.runSQl("insert into table values()")
+// Dialect 
+
+#### abstract methods 
+Abstract method are the method without implementation 
+mean method declared without body
+
+You can't create a instance of an abstract class. 

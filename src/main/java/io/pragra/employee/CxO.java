@@ -1,5 +1,6 @@
 package io.pragra.employee;
 
+// Concrete
 public class CxO extends Manager{
     private double incentive;
 
