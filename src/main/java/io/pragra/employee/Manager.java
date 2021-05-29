@@ -1,12 +1,15 @@
 package io.pragra.employee;
 
-public class Manager extends Employee{
-    public Manager(String name, Address address, int employeeId) {
-        super(name, address, employeeId);
+public class Manager extends Employee {
+    private double bonus;
+
+    public Manager(String name, double hourlyRate, double bonus) {
+        super(name, hourlyRate);
+        this.bonus = bonus;
     }
 
     @Override
-    public void work() {
-        System.out.println("Just chilling and passing order");
+    public double calculateSalary(){
+        return super.calculateSalary() + bonus;
     }
 }
