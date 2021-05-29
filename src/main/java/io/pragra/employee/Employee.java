@@ -16,6 +16,7 @@ public class Employee extends Person {
     }
 
     public void work(){
+        System.out.println(nickName);
         System.out.println("Working");
     }
 }

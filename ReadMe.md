@@ -50,3 +50,55 @@ class Solution {
     }
 }
 ````
+### Access Modifier
+<ol>
+    <li>public</li>
+    <li>private</li>
+    <li>protected</li>
+    <li>default</li>
+</ol>
+
+<table>
+    <tr>
+        <th></th>
+        <th>default</th>
+        <th>private</th>
+        <th>protected</th>
+        <th>public</th>
+    </tr>
+    <tr>
+        <td>Same Class</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
+    </tr>
+ <tr>
+        <td>SubClass - same package</td>
+        <td>Yes</td>
+        <td>No</td>
+        <td>Yes</td>
+        <td>Yes</td>
+    </tr>
+ <tr>
+        <td>SubClass - different package</td>
+        <td>No</td>
+        <td>No</td>
+        <td>Yes</td>
+        <td>Yes</td>
+    </tr>
+<tr>
+        <td>Another class - in same package</td>
+        <td>Yes</td>
+        <td>No</td>
+        <td>Yes</td>
+        <td>Yes</td>
+    </tr>
+<tr>
+        <td>Another class - in different package</td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+        <td>Yes</td>
+    </tr>
+</table>

@@ -9,9 +9,9 @@ public class TestRun {
         //
         Person person = new Person("Akash", new Address("TopFlight Dr","Mississauga"));
 
-        Person p  = new Employee("Anila",new Address("main st","brampton"),2);;
 
-        p.eat();
+
+        Person p  = new Employee("Anila",new Address("main st","brampton"),2);;
 
     }
 }

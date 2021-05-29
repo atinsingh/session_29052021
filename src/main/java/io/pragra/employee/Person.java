@@ -1,6 +1,7 @@
 package io.pragra.employee;
 // Composition
 public class Person {
+    protected String nickName ="Java";
     private String name;
     private Address address;
 
@@ -18,6 +19,7 @@ public class Person {
     }
 
     public void eat(){
+        System.out.println(nickName);
         System.out.println("Eating");
     }
 }
