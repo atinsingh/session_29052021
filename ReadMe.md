@@ -102,3 +102,26 @@ class Solution {
         <td>Yes</td>
     </tr>
 </table>
+
+
+### Task
+Create a class Employee 
+add member variable 
+double hourlyRate;
+// horlyRate*8*20
+public double calSalary(){
+}
+create class Manager extend 
+// double bonus 
+
+overide calSalary() 
+to include bonus component 
+
+create class CxO extend Manager
+// double incentives
+
+overide calSalary()
+to include inventive component 
+
+// object employee, manager, cxo 
+call calculate salary and see if you can get right result. 

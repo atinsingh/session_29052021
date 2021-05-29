@@ -10,16 +10,11 @@ public class Person {
         this.address = address;
     }
 
-    @Override
-    public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", address=" + address +
-                '}';
+    public void work(){
+        System.out.println("Learning at Home");
     }
 
-    public void eat(){
-        System.out.println(nickName);
-        System.out.println("Eating");
-    }
+
+
+
 }

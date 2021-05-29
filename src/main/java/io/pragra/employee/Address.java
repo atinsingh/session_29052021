@@ -9,11 +9,4 @@ public class Address {
         this.city = city;
     }
 
-    @Override
-    public String toString() {
-        return "Address{" +
-                "streetName='" + streetName + '\'' +
-                ", city='" + city + '\'' +
-                '}';
-    }
 }

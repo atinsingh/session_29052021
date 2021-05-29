@@ -9,14 +9,7 @@ public class Employee extends Person {
     }
 
     @Override
-    public String toString() {
-        return "Employee{" +
-                "employeeId=" + employeeId +
-                '}';
-    }
-
     public void work(){
-        System.out.println(nickName);
-        System.out.println("Working");
+        System.out.println("Doing Job");
     }
 }

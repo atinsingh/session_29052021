@@ -11,4 +11,9 @@ public class Contractor extends Person {
     public void printVal(){
         System.out.println(nickName);
     }
+
+    @Override
+    public void work() {
+        System.out.println("Trying to save some money");
+    }
 }
