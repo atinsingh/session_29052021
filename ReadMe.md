@@ -142,3 +142,48 @@ Abstract method are the method without implementation
 mean method declared without body
 
 You can't create a instance of an abstract class. 
+
+
+## Interface
+
+
+### Functional Programming
+In functional programing , functions(Methods) are considered as first class citizen
+
+I can pass a fucntion to a function, I can return function from function
+I can assign function to variable 
+
+### Functional Interface
+
+### Reiterate the changes between interface & abstract class
+
+## Lambdas 
+
+
+## Exception 
+### Error=>
+Error are the condition which may come during execution, which should 
+not be catch.
+### Exception 
+Conditions which may come during program execution, which you should catch 
+and handle. When exception comes program halt the normal flow of program
+and look for the handler , if no catch is provided 
+it will be bubbled to JVM causing program termination.
+
+```java
+class Main {
+ public static void main(String[] args) {
+    try {
+        
+    }catch (GrandChild ex){
+        
+    }catch (Child ex){
+        
+    }catch (Parent ex){
+    }
+    finally {
+        
+    }
+    }
+}
+```

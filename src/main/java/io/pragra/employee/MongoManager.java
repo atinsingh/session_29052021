@@ -10,5 +10,12 @@ public class MongoManager extends AweSomeDBManager{
         return "MONGO";
     }
 
+    public static void main(String[] args) {
+        String apple = "apple";
+        String oranges = new String("apple");
+
+        System.out.println(oranges==apple);
+    }
+
 
 }
